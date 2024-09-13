@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="722.0" prefWidth="894.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaapplication1.DemotingEmployeeSceneController">
+   <children>
+      <Text layoutX="31.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Complaint Letters:" wrappingWidth="231.73670959472656" />
+      <Text layoutX="31.0" layoutY="294.0" strokeType="OUTSIDE" strokeWidth="0.0" text="List of Employees : Select the employee" wrappingWidth="310.93675231933594" />
+      <TextArea fx:id="employeeTextArea" layoutX="15.0" layoutY="314.0" prefHeight="224.0" prefWidth="858.0" />
+      <TextArea fx:id="complaintTextArea" layoutX="15.0" layoutY="72.0" prefHeight="200.0" prefWidth="858.0" />
+      <Text layoutX="31.0" layoutY="572.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Informations:" wrappingWidth="209.33669662475586" />
+      <Button layoutX="31.0" layoutY="584.0" mnemonicParsing="false" onAction="#loadFilesButtonOnClick" prefHeight="26.0" prefWidth="176.0" text="Load Files" />
+      <Button layoutX="594.0" layoutY="585.0" mnemonicParsing="false" onAction="#approvedAndDeomotedButtonOnClick" prefHeight="26.0" prefWidth="209.0" text="Approved and Demoted" />
+      <Button layoutX="594.0" layoutY="647.0" mnemonicParsing="false" onAction="#declinedAndNotDemotedButtonOnClick" prefHeight="26.0" prefWidth="209.0" text="Declined and Not Demoted" />
+      <Text layoutX="609.0" layoutY="563.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select any one of the following:" wrappingWidth="202.93670654296875" />
+   </children>
+</AnchorPane>

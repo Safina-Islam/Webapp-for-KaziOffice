@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.BookingListController">
+   <children>
+      <TableView layoutX="31.0" layoutY="100.0" prefHeight="205.0" prefWidth="533.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Date" />
+          <TableColumn prefWidth="75.0" text="Applicant" />
+            <TableColumn prefWidth="75.0" text="Kazi" />
+            <TableColumn prefWidth="75.0" text="Location" />
+            <TableColumn prefWidth="75.0" text="Budget" />
+            <TableColumn prefWidth="157.0" text="Details" />
+        </columns>
+      </TableView>
+      <Label layoutX="233.0" layoutY="14.0" text="Booking List" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="310.0" layoutY="322.0" mnemonicParsing="false" onAction="#onSave" prefHeight="25.0" prefWidth="68.0" text="Remove" />
+      <Button layoutX="223.0" layoutY="361.0" mnemonicParsing="false" onAction="#onDiscard2" prefHeight="25.0" prefWidth="155.0" text="Discard" />
+      <Button layoutX="223.0" layoutY="322.0" mnemonicParsing="false" onAction="#onSave" prefHeight="25.0" prefWidth="68.0" text="Add" />
+   </children>
+</AnchorPane>

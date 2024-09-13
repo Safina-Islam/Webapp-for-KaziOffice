@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="493.0" prefWidth="706.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaapplication1.PromotingOfficerPromotingMarriagePackagesScene2Controller">
+   <children>
+      <Button layoutX="39.0" layoutY="51.0" mnemonicParsing="false" onAction="#loadFilesButtonOnClick" text="Load Files" />
+      <TextArea fx:id="outputTextArea" layoutX="14.0" layoutY="113.0" prefHeight="200.0" prefWidth="684.0" />
+      <Text layoutX="14.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Viewing Loaded Files:" wrappingWidth="155.87847900390625" />
+      <Button layoutX="501.0" layoutY="338.0" mnemonicParsing="false" onAction="#approveButtonOnclick" prefHeight="26.0" prefWidth="115.0" text="Approve" />
+      <Button layoutX="500.0" layoutY="388.0" mnemonicParsing="false" onAction="#disapproveButtonOnClick" prefHeight="26.0" prefWidth="115.0" text="Disapprove" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="422.0" prefWidth="644.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.PaymentController">
+   <children>
+      <Label layoutX="47.0" layoutY="72.0" prefHeight="47.0" prefWidth="130.0" text="Applicant ID">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="164.0" text="Applicant Account No">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="250.0" text="Amount Of Money">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Button layoutX="88.0" layoutY="347.0" mnemonicParsing="false" onAction="#onClickBack" prefHeight="47.0" prefWidth="106.0" style="-fx-background-color: RED;" text="BACK" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="411.0" layoutY="347.0" mnemonicParsing="false" onAction="#onClickSend" prefHeight="47.0" prefWidth="95.0" style="-fx-background-color: BLACK;" text="SEND" textFill="#fff6f6">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <TextField layoutX="262.0" layoutY="83.0" prefHeight="47.0" prefWidth="195.0" />
+      <TextField layoutX="264.0" layoutY="154.0" prefHeight="47.0" prefWidth="195.0" />
+      <TextField layoutX="261.0" layoutY="237.0" prefHeight="47.0" prefWidth="195.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.ContactSceneController">
+   <children>
+      <AnchorPane id="AnchorPane" layoutX="3.0" layoutY="3.0" prefHeight="627.0" prefWidth="600.0">
+         <children>
+            <AnchorPane layoutY="45.0" prefHeight="71.0" prefWidth="546.0" style="-fx-background-color: #e8178d;">
+               <children>
+                  <Text layoutX="40.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contact Us">
+                     <font>
+                        <Font size="52.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <Text fill="#0a30ab" layoutX="20.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Regester Office" underline="true" wrappingWidth="153.970703125">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Text>
+            <Text layoutX="20.0" layoutY="218.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone: +8801887654                            Email: RegesterOffice@bd.com" wrappingWidth="325.103515625">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Text>
+            <Text layoutX="9.0" layoutY="472.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone: +880199765                                    Email: CustomerServiceDKO@bd.com" wrappingWidth="346.103515625">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Text>
+            <Text fill="#0a30ab" layoutX="14.0" layoutY="291.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Office Hours" underline="true" wrappingWidth="153.970703125">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Text>
+            <Text layoutX="14.0" layoutY="319.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Saturday - Wednesday 9am to 5pm Thursday - 9am to 4pm           Friday - Closed" wrappingWidth="220.103515625">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Button layoutX="14.0" layoutY="401.0" mnemonicParsing="false" onMouseClicked="#customerServiceButtonOnClicl" prefHeight="40.0" prefWidth="189.0" text="Coustomer service" textFill="#120d9a" underline="true">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

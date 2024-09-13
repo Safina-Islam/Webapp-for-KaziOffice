@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="652.0" prefWidth="874.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaapplication1.PromotingOfficerShowcasingSuccessStoriesScene1Controller">
+   <children>
+      <Button layoutX="708.0" layoutY="40.0" mnemonicParsing="false" onAction="#uploadButtonOnClick" text="Upload" />
+      <Button layoutX="664.0" layoutY="111.0" mnemonicParsing="false" onAction="#addToTheListButtonOnClick" text="Add To The List" />
+      <Text layoutX="14.0" layoutY="401.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mini Descriptions:" />
+      <TextArea fx:id="listOfMiniVideoAndPictureOutputTextArea" layoutX="5.0" layoutY="180.0" prefHeight="200.0" prefWidth="864.0" />
+      <TextArea fx:id="miniDescriptionsOutputTextArea" layoutX="9.0" layoutY="405.0" prefHeight="200.0" prefWidth="855.0" />
+      <Text layoutX="14.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="List Of All The Mini Videos And Pictures:" wrappingWidth="225.3367042541504" />
+      <Button layoutX="737.0" layoutY="613.0" mnemonicParsing="false" onAction="#saveAndContinueButtonOnClick" text="Save And Continue" />
+   </children>
+</AnchorPane>

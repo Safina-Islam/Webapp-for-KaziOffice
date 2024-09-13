@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19" fx:controller="lawyer.DocumentListSceneController">
+   <children>
+      <ListView fx:id="docFileListView" layoutY="30.0" prefHeight="278.0" prefWidth="600.0" />
+      <Button layoutX="14.0" layoutY="327.0" mnemonicParsing="false" onMouseClicked="#openDocButtonOnClick" text="Open" />
+      <Button layoutX="117.0" layoutY="327.0" mnemonicParsing="false" onMouseClicked="#InsertDocumentButtonOnClick" text="Insert Document" />
+      <Button layoutX="470.0" layoutY="340.0" mnemonicParsing="false" onMouseClicked="#backButtonOnClick" text="Back" />
+   </children>
+</AnchorPane>

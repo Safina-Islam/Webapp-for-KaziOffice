@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="585.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lawyer.LawyerPanelController">
+   <children>
+      <Label layoutX="147.0" text="OUR LAWYER PANEL" textFill="#b90595" underline="true">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="198.0" fitWidth="256.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/BARRISTER-RABIYA-J-FIROZ.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutY="352.0" prefHeight="65.0" prefWidth="190.0" style="-fx-background-color: #f5d9ef;" text="LLB, LLM (DU) Judge court Dhaka &amp; Bangladesh Supreme Court" wrapText="true">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutY="327.0" onMouseClicked="#lawyerDetailOnClick" prefHeight="17.0" prefWidth="190.0" style="-fx-background-color: #f5d9ef;" text="ADVOCATE RABIYA FIROZ" underline="true">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button layoutX="14.0" layoutY="533.0" mnemonicParsing="false" onMouseClicked="#backButtonOnClick" text="Back" />
+   </children>
+</AnchorPane>

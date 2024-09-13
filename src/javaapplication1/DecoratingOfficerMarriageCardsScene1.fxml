@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="652.0" prefWidth="890.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaapplication1.DecoratingOfficerMarriageCardsScene1Controller">
+   <children>
+      <Button layoutX="756.0" layoutY="542.0" mnemonicParsing="false" onAction="#printButtonOnClick" text="Print" />
+      <Button layoutX="681.0" layoutY="413.0" mnemonicParsing="false" onAction="#uploadCardDesignButtonOnClick" text="Upload Card Design" />
+      <Button layoutX="21.0" layoutY="89.0" mnemonicParsing="false" onAction="#requirementsButtonOnClick" text="Requirements" />
+      <TextArea fx:id="detailsOutputTextArea" layoutX="4.0" layoutY="169.0" prefHeight="200.0" prefWidth="882.0" />
+      <Text layoutX="14.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Details:" />
+   </children>
+</AnchorPane>

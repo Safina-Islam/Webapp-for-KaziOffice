@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="570.0" prefWidth="809.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaapplication1.PromotingOfficerHostingEventToPromoteScene1Controller">
+   <children>
+      <Button layoutX="21.0" layoutY="98.0" mnemonicParsing="false" onAction="#uploadScreenshotButtonOnClick" prefHeight="26.0" prefWidth="161.0" text="Upload Screeshot" />
+      <TextArea fx:id="informationTextArea" layoutX="4.0" layoutY="165.0" prefHeight="200.0" prefWidth="794.0" promptText="Write the description" />
+      <Button layoutX="653.0" layoutY="388.0" mnemonicParsing="false" onAction="#saveAndContinueButtonOnClick" text="Save And Continue" />
+      <Text layoutX="21.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Informations:" wrappingWidth="161.5999999999999" />
+   </children>
+</AnchorPane>

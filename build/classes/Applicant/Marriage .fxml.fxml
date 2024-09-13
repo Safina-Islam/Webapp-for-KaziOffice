@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="612.0" prefWidth="544.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Kazi.FXML2Controller">
+   <children>
+      <AnchorPane layoutX="-8.0" prefHeight="64.0" prefWidth="812.0" style="-fx-background-color: salmon;">
+         <children>
+            <Text layoutX="63.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Groom Information" underline="true" wrappingWidth="167.513671875">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="466.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bride Infomation" underline="true" wrappingWidth="121.234375">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Text>
+            <Label layoutX="136.0" layoutY="5.0" prefHeight="19.0" prefWidth="437.0" text="Fill up According to Passport, National ID &amp; Educational Certificate">
+               <font>
+                  <Font name="System Bold Italic" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Text layoutX="13.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <TextField layoutX="160.0" layoutY="77.0" prefHeight="25.0" prefWidth="208.0" />
+      <TextField layoutX="532.0" layoutY="76.0" prefHeight="25.0" prefWidth="185.0" />
+      <TextField layoutX="160.0" layoutY="120.0" prefHeight="25.0" prefWidth="208.0" />
+      <TextField layoutX="532.0" layoutY="121.0" prefHeight="25.0" prefWidth="185.0" />
+      <TextField layoutX="160.0" layoutY="167.0" prefHeight="25.0" prefWidth="208.0" />
+      <TextField layoutX="535.0" layoutY="168.0" prefHeight="25.0" prefWidth="185.0" />
+      <TextField layoutX="160.0" layoutY="221.0" prefHeight="25.0" prefWidth="208.0" />
+      <TextField layoutX="532.0" layoutY="221.0" prefHeight="25.0" prefWidth="185.0" />
+      <TextField layoutX="160.0" layoutY="268.0" prefHeight="25.0" prefWidth="208.0" />
+      <TextField layoutX="532.0" layoutY="270.0" prefHeight="25.0" prefWidth="185.0" />
+      <DatePicker layoutX="163.0" layoutY="408.0" prefHeight="25.0" prefWidth="164.0" />
+      <TextField layoutX="163.0" layoutY="450.0" prefHeight="25.0" prefWidth="164.0" />
+      <TextField layoutX="521.0" layoutY="408.0" prefHeight="25.0" prefWidth="185.0" />
+      <Button layoutX="150.0" layoutY="542.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="70.0" style="-fx-background-color: red;" text="BACK" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="439.0" layoutY="542.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="70.0" style="-fx-background-color: black;" text="Submit" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Text layoutX="14.0" layoutY="593.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Note:Name,Email&amp; Date Of Birth Must Be Required">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <TextField layoutX="521.0" layoutY="450.0" prefHeight="25.0" prefWidth="185.0" />
+      <Line endX="-1.0" endY="226.0" layoutX="384.0" layoutY="106.0" startX="-1.0" startY="-18.0" />
+      <Label layoutX="12.0" layoutY="78.0" prefHeight="17.0" prefWidth="114.0" text="Groom's Name">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="10.0" layoutY="123.0" text="Groom's Father Name">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="10.0" layoutY="157.0" />
+      <Label layoutX="7.0" layoutY="169.0" text="Groom's Mother Name">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="7.0" layoutY="222.0" text="Groom's  Address">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="398.0" layoutY="78.0" text="Bride's Name">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="394.0" layoutY="123.0" text="Bride's Father Name">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="390.0" layoutY="171.0" text="Bride's Mother Name">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="392.0" layoutY="222.0" text="Bride's Address">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="370.0" layoutY="411.0" text="Amount of Dower " wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="368.0" layoutY="453.0" text="Marriage Venue">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="19.0" layoutY="410.0" text="Date of Marriage">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="452.0" text="Phone Number ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="-1.0" layoutY="357.0" prefHeight="32.0" prefWidth="767.0" style="-fx-background-color: teal;">
+         <children>
+            <Label layoutX="291.0" layoutY="4.0" text="Marraige Information" textFill="#6e1010">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="7.0" layoutY="272.0" text="Groom's Email Address">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="390.0" layoutY="273.0" text="Bride's Email Address">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="7.0" layoutY="324.0" text="Groom's Date Of Date">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="394.0" layoutY="324.0" text="Bride's Date Of Birth">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <DatePicker layoutX="158.0" layoutY="320.0" prefHeight="25.0" prefWidth="208.0" />
+      <DatePicker layoutX="527.0" layoutY="320.0" prefHeight="25.0" prefWidth="185.0" />
+      <Label layoutX="19.0" layoutY="493.0" text="Time of Marriage">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField layoutX="163.0" layoutY="491.0" prefHeight="25.0" prefWidth="164.0" />
+      <TextField layoutX="519.0" layoutY="491.0" prefHeight="25.0" prefWidth="185.0" />
+      <Label layoutX="368.0" layoutY="493.0" text="Adress Of Marriage">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="photographer.FAQSceneController">
+   <children>
+      <Label layoutX="123.0" style="-fx-background-color: #bcb6bb;" text="Wedding Photography FAQ" textFill="#a10c88fa">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Button layoutX="534.0" layoutY="54.0" mnemonicParsing="false" onMouseClicked="#editFaQButtonOnClick" text="Edit" />
+      <Button layoutX="14.0" layoutY="361.0" mnemonicParsing="false" onMouseClicked="#saveFaQButtonOnClick" text="SAVE" />
+      <Button layoutX="534.0" layoutY="349.0" mnemonicParsing="false" onMouseClicked="#backButtonOnClick" text="Back" />
+      <TextArea fx:id="fAQTextArea" layoutX="-1.0" layoutY="93.0" prefHeight="250.0" prefWidth="600.0" />
+      <Button layoutX="10.0" layoutY="67.0" mnemonicParsing="false" onMouseClicked="#viewFAQButtonOnClick" text="View FAQ" />
+   </children>
+</AnchorPane>

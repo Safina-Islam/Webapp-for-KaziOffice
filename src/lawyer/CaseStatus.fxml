@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lawyer.CaseStatusController">
+   <children>
+      <TextArea fx:id="caseStatusTextArea" layoutX="50.0" layoutY="109.0" prefHeight="200.0" prefWidth="496.0" />
+      <Label layoutX="200.0" layoutY="14.0" prefHeight="71.0" prefWidth="361.0" text="Case Status" underline="true">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+      <Button layoutX="72.0" layoutY="323.0" mnemonicParsing="false" onMouseClicked="#saveStatusButtonOnClick" text="Save" />
+      <Button layoutX="446.0" layoutY="323.0" mnemonicParsing="false" onMouseClicked="#backButtonOnClick" text="Back" />
+      <Button layoutX="487.0" layoutY="85.0" mnemonicParsing="false" onMouseClicked="#updateButtonOnClick" text="Update" />
+   </children>
+</AnchorPane>

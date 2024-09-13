@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="539.0" prefWidth="715.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaapplication1.DecoratingOfficerBuyingFurnitureAndOfficeEquipmentScene3Controller">
+   <children>
+      <Button layoutX="542.0" layoutY="393.0" mnemonicParsing="false" onAction="#uploadPurchaseDetailsButtonOnClick" text="Upload Purchase Details" />
+      <Text layoutX="14.0" layoutY="14.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Post Purchase Procedures:" wrappingWidth="242.93671417236328" />
+      <Button layoutX="556.0" layoutY="465.0" mnemonicParsing="false" onAction="#saveAndContinueButtonOnClick" text="Save And Continue" />
+      <TextArea fx:id="descriptionTextArea" layoutX="9.0" layoutY="102.0" prefHeight="200.0" prefWidth="697.0" promptText="Optional " />
+      <Text layoutX="14.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Descriptions:" wrappingWidth="150.13672637939453" />
+   </children>
+</AnchorPane>

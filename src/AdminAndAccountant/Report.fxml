@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.ReportController">
+   <children>
+      <Button layoutX="223.0" layoutY="322.0" mnemonicParsing="false" onAction="#onSave" prefHeight="25.0" prefWidth="155.0" text="Save" />
+      <Button layoutX="223.0" layoutY="361.0" mnemonicParsing="false" onAction="#onDiscard" prefHeight="25.0" prefWidth="155.0" text="Discard" />
+      <TextArea layoutX="35.0" layoutY="227.0" prefHeight="79.0" prefWidth="530.0" promptText="On clients proposal....." />
+      <Label layoutX="35.0" layoutY="202.0" text="Discription" />
+      <TextField layoutX="35.0" layoutY="102.0" prefHeight="25.0" prefWidth="530.0" promptText="Monthly revenue" />
+      <Label layoutX="35.0" layoutY="71.0" text="Subject" />
+      <TextField layoutX="35.0" layoutY="168.0" prefHeight="25.0" prefWidth="530.0" promptText="\$25000" />
+      <Label layoutX="35.0" layoutY="137.0" text="Budget" />
+      <Label layoutX="227.0" layoutY="24.0" text="Create Report">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

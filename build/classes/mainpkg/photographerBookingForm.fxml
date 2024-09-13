@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.PhotographerBookingFormController">
+   <children>
+      <AnchorPane id="AnchorPane" layoutX="5.0" layoutY="5.0" prefHeight="468.0" prefWidth="600.0">
+         <children>
+            <Label layoutX="154.0" layoutY="7.0" prefHeight="30.0" prefWidth="254.0" text="Photographer Booking Form" underline="true">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="27.0" layoutY="75.0" prefHeight="19.0" prefWidth="53.0" text="Name:" />
+            <Label layoutX="27.0" layoutY="115.0" prefHeight="17.0" prefWidth="86.0" text="Date Of Event:" />
+            <Label fx:id="addressTextfield" layoutX="27.0" layoutY="150.0" text="Event Address:" />
+            <Label layoutX="27.0" layoutY="183.0" text="Phone Number:" />
+            <Label layoutX="27.0" layoutY="216.0" text="Email:" />
+            <Label layoutX="29.0" layoutY="254.0" text="Special requerments (If have any):" />
+            <TextField fx:id="nameTextField" layoutX="117.0" layoutY="72.0" />
+            <TextField fx:id="eventAddressTextField" layoutX="117.0" layoutY="146.0" />
+            <TextField fx:id="phoneNoTextField" layoutX="117.0" layoutY="179.0" />
+            <TextField fx:id="emailTextField" layoutX="117.0" layoutY="212.0" />
+            <DatePicker fx:id="dOEDatepicker" layoutX="117.0" layoutY="111.0" prefHeight="25.0" prefWidth="149.0" />
+            <Label layoutX="308.0" layoutY="107.0" prefHeight="17.0" prefWidth="64.0" text="Event Type:" />
+            <Label layoutX="308.0" layoutY="150.0" text="Event Start time:" />
+            <Label layoutX="299.0" layoutY="183.0" text="Choose package:" />
+            <ComboBox fx:id="eventTypeComboBox" layoutX="401.0" layoutY="103.0" prefWidth="150.0" />
+            <TextField fx:id="eventStartTimeTextField" layoutX="402.0" layoutY="146.0" />
+            <TextArea fx:id="specialRequermentTextArea" layoutX="29.0" layoutY="285.0" prefHeight="119.0" prefWidth="557.0" />
+            <Button layoutX="477.0" layoutY="419.0" mnemonicParsing="false" onMouseClicked="#submitPhotographerBookingFormButtonOnClick" text="submit" />
+            <ComboBox fx:id="packageChooseComboBox" layoutX="401.0" layoutY="188.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <Button layoutX="52.0" layoutY="439.0" mnemonicParsing="false" onMouseClicked="#backButtonOnClick" text="Back" />
+   </children>
+</AnchorPane>

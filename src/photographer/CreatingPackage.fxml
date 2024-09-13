@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="605.0" prefWidth="624.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="photographer.CreatingPackageController">
+   <children>
+      <Label layoutX="191.0" layoutY="7.0" text="MAKE PACKAGES" textFill="#a80978" underline="true">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <TableView fx:id="packageTableView" editable="true" layoutX="8.0" layoutY="87.0" prefHeight="385.0" prefWidth="608.0">
+        <columns>
+          <TableColumn fx:id="packageNameColumn" prefWidth="100.0" text="Package Name" />
+          <TableColumn fx:id="servicedurationColumn" prefWidth="100.0" text="Service Duration" />
+            <TableColumn fx:id="NoOfPhotographerColumn" prefWidth="120.0" text="No.Of Photographer" />
+            <TableColumn fx:id="albumnColumn" prefWidth="75.0" text="Album" />
+            <TableColumn fx:id="chargeColumn" prefWidth="75.0" text="Charge" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+      <TextField fx:id="packageNameTextField" layoutX="14.0" layoutY="482.0" promptText="package Name" />
+      <TextField fx:id="serviceDurationTextField" layoutX="173.0" layoutY="482.0" prefHeight="25.0" prefWidth="109.0" promptText="Service Duration" />
+      <TextField fx:id="noOfPhotographerTextField" layoutX="291.0" layoutY="482.0" prefHeight="25.0" prefWidth="133.0" promptText="No. Of Photographer" />
+      <TextField fx:id="albumTextField" layoutX="429.0" layoutY="482.0" prefHeight="25.0" prefWidth="72.0" promptText="Album" />
+      <TextField fx:id="chargeTextField" layoutX="507.0" layoutY="482.0" prefHeight="25.0" prefWidth="109.0" promptText="Charge" />
+      <Button layoutX="14.0" layoutY="526.0" mnemonicParsing="false" onMouseClicked="#addNewPackageButtonOnClick" text="ADD New Package" />
+      <Button layoutX="173.0" layoutY="526.0" mnemonicParsing="false" onMouseClicked="#deletePackageButtonOnClick" text="Delete Package" />
+      <Button layoutX="14.0" layoutY="566.0" mnemonicParsing="false" onMouseClicked="#backButtonOnClick" text="Back" />
+      <Button layoutX="9.0" layoutY="62.0" mnemonicParsing="false" onMouseClicked="#viewPackagesButtonOnClick" text="View Packages" />
+   </children>
+</AnchorPane>

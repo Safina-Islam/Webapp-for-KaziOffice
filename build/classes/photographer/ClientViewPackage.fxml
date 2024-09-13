@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="443.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="photographer.ClientViewPackageController">
+   <children>
+      <TableView fx:id="clietPackageTableView" layoutX="13.0" layoutY="128.0" prefHeight="331.0" prefWidth="574.0">
+         <columns>
+            <TableColumn fx:id="packageNameColumn" prefWidth="100.0" text="Package Name" />
+            <TableColumn fx:id="servicedurationColumn" prefWidth="130.0" text="Service Duration" />
+            <TableColumn fx:id="NoOfPhotographerColumn" prefWidth="138.0" text="No.Of Photographer" />
+            <TableColumn fx:id="albumnColumn" prefWidth="91.0" text="Album" />
+            <TableColumn fx:id="chargeColumn" prefWidth="135.0" text="Charge" />
+         </columns>
+      </TableView>
+      <Button layoutX="14.0" layoutY="93.0" mnemonicParsing="false" onMouseClicked="#viewAllPackagesButtonOnClick" text="View All Packages" />
+      <Button layoutX="20.0" layoutY="480.0" mnemonicParsing="false" onMouseClicked="#backButtonOnClick" text="Back" />
+      <Label layoutX="169.0" layoutY="14.0" text="OUR PACKAGES" textFill="#a80978" underline="true">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

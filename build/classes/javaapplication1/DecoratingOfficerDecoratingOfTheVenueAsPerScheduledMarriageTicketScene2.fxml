@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="642.0" prefWidth="814.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaapplication1.DecoratingOfficerDecoratingOfTheVenueAsPerScheduledMarriageTicketScene2Controller">
+   <children>
+      <TableView fx:id="ticketTableView" layoutX="7.0" layoutY="108.0" prefHeight="200.0" prefWidth="793.0">
+        <columns>
+          <TableColumn fx:id="ticketNumberView" prefWidth="243.2000093460083" text="Ticket Number" />
+          <TableColumn fx:id="ticketIssuedDateView" prefWidth="253.6000213623047" text="Ticket Issued Date" />
+            <TableColumn fx:id="statusView" prefWidth="296.00006103515625" text="Status" />
+        </columns>
+      </TableView>
+      <Text layoutX="23.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tickets:" wrappingWidth="250.1367301940918" />
+      <Button layoutX="585.0" layoutY="406.0" mnemonicParsing="false" onAction="#continueButtonOnClick" prefHeight="26.0" prefWidth="198.0" text="Continue" />
+      <Button layoutX="584.0" layoutY="475.0" mnemonicParsing="false" onAction="#approvedButtonOnClick" prefHeight="26.0" prefWidth="198.0" text="Approved" />
+      <Button layoutX="587.0" layoutY="537.0" mnemonicParsing="false" onAction="#disapprovedButtonOnClick" prefHeight="26.0" prefWidth="198.0" text="Disapproved" />
+   </children>
+</AnchorPane>

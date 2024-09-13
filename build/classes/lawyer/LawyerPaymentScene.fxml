@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="578.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lawyer.LawyerPaymentSceneController">
+   <children>
+      <Label layoutX="166.0" text=" Lawyer Payment" underline="true">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="102.0" prefHeight="28.0" prefWidth="92.0" text="Case No.">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="158.0" text="Client Name:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="210.0" text="Paid Amount:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="318.0" layoutY="92.0" text="Due Amount:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="322.0" layoutY="130.0" text="Due Date:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="casenoTextField" layoutX="104.0" layoutY="104.0" />
+      <TextField fx:id="clientNameTextField" layoutX="104.0" layoutY="156.0" />
+      <TextField fx:id="paidAmountTextField" layoutX="104.0" layoutY="208.0" />
+      <TextField fx:id="DueAmountTextField" layoutX="413.0" layoutY="92.0" />
+      <DatePicker fx:id="dueDatePicker" layoutX="415.0" layoutY="128.0" prefHeight="25.0" prefWidth="149.0" />
+      <Button layoutX="31.0" layoutY="519.0" mnemonicParsing="false" onMouseClicked="#backButtonOnClick" text="Back" />
+      <Button layoutX="498.0" layoutY="519.0" mnemonicParsing="false" onMouseClicked="#sendButtonOnClick" text="Send" />
+   </children>
+</AnchorPane>

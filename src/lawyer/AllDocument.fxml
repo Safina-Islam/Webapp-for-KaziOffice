@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19" fx:controller="lawyer.AllDocumentController">
+   <children>
+      <ListView fx:id="caseNoListView" layoutX="14.0" layoutY="85.0" prefHeight="286.0" prefWidth="296.0" />
+      <Label layoutX="14.0" layoutY="30.0" prefHeight="46.0" prefWidth="177.0" text="Case Documents">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="14.0" layoutY="374.0" mnemonicParsing="false" onMouseClicked="#openCaseFolderButtonOnClick" text="Open" />
+      <Button layoutX="361.0" layoutY="108.0" mnemonicParsing="false" onMouseClicked="#creatNewCFolderButtonOnClick" prefHeight="92.0" prefWidth="143.0" text="Create New Case Folder" />
+      <Button layoutX="452.0" layoutY="359.0" mnemonicParsing="false" onMouseClicked="#backButtonOnClick" text="Back" />
+   </children>
+</AnchorPane>

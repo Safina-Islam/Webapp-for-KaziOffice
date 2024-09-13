@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.Dashboard_AdminController">
+   <children>
+      <Label alignment="CENTER" layoutX="282.0" layoutY="51.0" text="Admin" textAlignment="CENTER" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="156.0" layoutY="-3.0" prefHeight="62.0" prefWidth="290.0" text="Dashboard" textAlignment="CENTER">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="79.0" layoutY="75.0" prefHeight="124.0" prefWidth="136.0">
+         <children>
+            <VBox layoutY="64.0" spacing="8.0" />
+            <ComboBox fx:id="ApplicantComboBox" layoutX="1.0" layoutY="98.0" onMouseClicked="#applicantComboboxButtonOnClick" prefHeight="25.0" prefWidth="135.0" promptText="Applicant" />
+         </children>
+      </AnchorPane>
+      <VBox layoutX="370.0" layoutY="74.0" spacing="8.0">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="151.0" text="Creat Profile" />
+            <Button mnemonicParsing="false" onMouseClicked="#bookingConfirmationButtonOnClick" prefHeight="25.0" prefWidth="151.0" text="Booking Confirmation" />
+            <Button layoutX="10.0" layoutY="60.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="151.0" text="Kazi list" />
+         </children>
+      </VBox>
+      <Button layoutX="77.0" layoutY="347.0" mnemonicParsing="false" text="Assign Kazi" />
+      <Button layoutX="468.0" layoutY="347.0" mnemonicParsing="false" onAction="#onClickLogout" text="Logout" />
+      <Button layoutX="175.0" layoutY="347.0" mnemonicParsing="false" text="Remove Proposal" />
+      <Text layoutX="105.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <TextArea fx:id="applicantTextArea" layoutX="64.0" layoutY="210.0" prefHeight="124.0" prefWidth="479.0" />
+   </children>
+</AnchorPane>

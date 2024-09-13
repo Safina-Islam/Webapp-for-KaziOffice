@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="photographer.PhotographerPaymentController">
+   <children>
+      <AnchorPane id="AnchorPane" layoutX="10.0" layoutY="10.0" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Label layoutX="215.0" layoutY="14.0" prefHeight="35.0" prefWidth="126.0" text="Bill Details" underline="true">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Button layoutX="7.0" layoutY="37.0" mnemonicParsing="false" onMouseClicked="#viewBillButtonOnClick" text="View Bill" />
+            <Button layoutX="508.0" layoutY="374.0" mnemonicParsing="false" onMouseClicked="#BackButtonOnClick" text="Back" />
+            <TableView fx:id="photogPaymentTableView" layoutY="78.0" prefHeight="282.0" prefWidth="594.0">
+               <columns>
+                  <TableColumn fx:id="serialNoColumn" prefWidth="67.0" text="SerialNo." />
+                  <TableColumn fx:id="clientNameColumn" prefWidth="163.0" text="Client Name" />
+                  <TableColumn fx:id="packageColumn" prefWidth="109.0" text="Package" />
+                  <TableColumn fx:id="paidAmountColumn" prefWidth="93.0" text="Paid Amount" />
+                  <TableColumn fx:id="DueAmountColumn" prefWidth="86.0" text="DueAmount" />
+                  <TableColumn fx:id="dueDateColumn" prefWidth="75.0" text="DueDate" />
+               </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

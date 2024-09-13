@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.Register_ScreenController">
+   <children>
+      <VBox alignment="CENTER" layoutX="139.0" layoutY="70.0" spacing="24.0" AnchorPane.leftAnchor="139.0" AnchorPane.rightAnchor="113.0">
+         <children>
+            <Label text="Register">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <HBox spacing="24.0">
+               <children>
+                  <HBox>
+                     <children>
+                        <VBox spacing="4.0">
+                           <children>
+                              <VBox>
+                                 <children>
+                                    <Label text="Username" />
+                                    <TextField promptText="username/email" />
+                                 </children>
+                              </VBox>
+                              <VBox layoutX="10.0" layoutY="56.0">
+                                 <children>
+                                    <Label text="Password" />
+                                    <PasswordField promptText="password" />
+                                 </children>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                              </VBox>
+                              <VBox>
+                                 <children>
+                                    <Label text="Confirm password" />
+                                    <PasswordField promptText="password" />
+                                 </children>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                              </VBox>
+                              <HBox alignment="CENTER">
+                                 <children>
+                                    <VBox alignment="CENTER" spacing="14.0">
+                                       <children>
+                                          <SplitMenuButton mnemonicParsing="false" prefHeight="25.0" prefWidth="150.0" text="Select user">
+                                             <items>
+                                                <MenuItem mnemonicParsing="false" text="Applicant" />
+                                                <MenuItem mnemonicParsing="false" text="Kazi" />
+                                             </items>
+                                          </SplitMenuButton>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <padding>
+                                    <Insets top="8.0" />
+                                 </padding>
+                              </HBox>
+                           </children>
+                        </VBox>
+                        <VBox layoutX="10.0" layoutY="10.0" spacing="4.0" />
+                     </children>
+                  </HBox>
+                  <HBox>
+                     <children>
+                        <VBox spacing="4.0">
+                           <children>
+                              <VBox>
+                                 <children>
+                                    <Label text="Email" />
+                                    <TextField promptText="username@email.com" />
+                                 </children>
+                              </VBox>
+                              <VBox>
+                                 <children>
+                                    <Label text="Date of birth" />
+                                    <DatePicker promptText="dd/mm/yyyy" />
+                                 </children>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                              </VBox>
+                              <VBox layoutX="10.0" layoutY="10.0">
+                                 <children>
+                                    <Label text="Phone no." />
+                                    <TextField promptText="012345678911" />
+                                 </children>
+                              </VBox>
+                              <HBox spacing="32.0">
+                                 <children>
+                                    <RadioButton mnemonicParsing="false" text="Male">
+                                       <padding>
+                                          <Insets top="4.0" />
+                                       </padding>
+                                    </RadioButton>
+                                    <RadioButton mnemonicParsing="false" text="Female">
+                                       <padding>
+                                          <Insets top="4.0" />
+                                       </padding>
+                                    </RadioButton>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                        <VBox layoutX="10.0" layoutY="10.0" spacing="4.0" />
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onClickRegister" prefHeight="25.0" prefWidth="65.0" text="Signup" />
+         </children>
+      </VBox>
+      <Label layoutX="194.0" layoutY="41.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="35.0" prefWidth="240.0" text="Kazi Office Simulator">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

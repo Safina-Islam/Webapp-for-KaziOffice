@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lawyer.LawyerDashboardController">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="573.0" prefWidth="725.0" style="-fx-background-color: white;">
+         <children>
+            <Button layoutX="-17.0" layoutY="152.0" mnemonicParsing="false" onMouseClicked="#clientButtonOnClick" prefHeight="40.0" prefWidth="89.0" text="Clients">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+            <Button layoutX="72.0" layoutY="152.0" mnemonicParsing="false" onMouseClicked="#documentButtonOnClick" prefHeight="40.0" prefWidth="126.0" text="Documents">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+            <Button layoutX="297.0" layoutY="152.0" mnemonicParsing="false" onMouseClicked="#notesButtonOnClick" prefHeight="40.0" prefWidth="82.0" text="Notes">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="379.0" layoutY="152.0" mnemonicParsing="false" onMouseClicked="#paymentButtonOnClick" prefHeight="40.0" prefWidth="99.0" text="Payment">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+            <Button layoutX="198.0" layoutY="152.0" mnemonicParsing="false" onMouseClicked="#scheuleButtonOnClick" prefHeight="40.0" prefWidth="99.0" text="Schedule">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="150.0" fitWidth="140.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../image/logo.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="597.0" layoutY="152.0" mnemonicParsing="false" onMouseClicked="#questionBoxButtonOnClick" prefHeight="40.0" prefWidth="126.0" text="Question Box" wrapText="true">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            <Label layoutX="130.0" layoutY="22.0" prefHeight="92.0" prefWidth="540.0" text="Digital KAZI OFFICE" textFill="#e30b92">
+               <font>
+                  <Font size="59.0" />
+               </font>
+            </Label>
+            <Button layoutX="478.0" layoutY="152.0" mnemonicParsing="false" onMouseClicked="#myBlogButtonOnClick" prefHeight="40.0" prefWidth="119.0" text="My Blog">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            <Label layoutX="14.0" layoutY="287.0" prefHeight="17.0" prefWidth="133.0" text="My profile" textFill="#000000cb" underline="true">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Label fx:id="lawyerNameLabel" layoutX="17.0" layoutY="322.0" prefHeight="17.0" prefWidth="89.0" text="Name:">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="phoneNoLabel" layoutX="17.0" layoutY="351.0" text="Phone no:">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="officeHourLabel" layoutX="17.0" layoutY="414.0" text="Office hour:">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="emailLable" layoutX="17.0" layoutY="384.0" text="Email:">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="-1.0" layoutY="133.0" prefHeight="17.0" prefWidth="126.0" style="-fx-background-color: white;" text="Digital Kazi Office" textFill="#bf0c74">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Button layoutX="11.0" layoutY="534.0" mnemonicParsing="false" onMouseClicked="#backButtonOnClick" text="Back" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

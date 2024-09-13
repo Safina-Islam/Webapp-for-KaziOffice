@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="774.0" prefWidth="866.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaapplication1.PromotingEmployeeSceneController">
+   <children>
+      <Text layoutX="20.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Letters Recieved:" wrappingWidth="134.93674659728998" />
+      <Text layoutX="20.0" layoutY="375.0" strokeType="OUTSIDE" strokeWidth="0.0" text="List of Employees:" wrappingWidth="149.33673858642578" />
+      <Text layoutX="9.0" layoutY="659.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Employee Information:" wrappingWidth="134.93674659728998" />
+      <TextArea fx:id="lettersTextArea" layoutX="9.0" layoutY="71.0" prefHeight="234.0" prefWidth="854.0" />
+      <Button layoutX="9.0" layoutY="681.0" mnemonicParsing="false" onAction="#loadFilesButtonOnClick" prefHeight="26.0" prefWidth="236.0" text="Load Files" />
+      <TextArea fx:id="employeeTextArea" layoutX="13.0" layoutY="387.0" prefHeight="200.0" prefWidth="846.0" />
+      <Text layoutX="631.0" layoutY="629.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select:" wrappingWidth="174.13671875" />
+      <Button layoutX="631.0" layoutY="634.0" mnemonicParsing="false" onAction="#approvedAndPromotedButtonOnClick" prefHeight="26.0" prefWidth="216.0" text="Approved and Promoted" />
+      <Button layoutX="631.0" layoutY="681.0" mnemonicParsing="false" onAction="#notApprovedButtonOnClick" prefHeight="26.0" prefWidth="216.0" text="Not Approved" />
+   </children>
+</AnchorPane>

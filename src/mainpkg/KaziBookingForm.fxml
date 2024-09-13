@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.KaziBookingFormController">
+   <children>
+      <AnchorPane id="AnchorPane" layoutX="2.0" layoutY="2.0" prefHeight="468.0" prefWidth="600.0">
+         <children>
+            <Label layoutX="154.0" layoutY="7.0" prefHeight="30.0" prefWidth="210.0" text="Kazi Booking Form" underline="true">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="27.0" layoutY="75.0" prefHeight="19.0" prefWidth="84.0" text="Bride Name:" />
+            <Label layoutX="27.0" layoutY="115.0" prefHeight="17.0" prefWidth="86.0" text="Date Of Birth:" />
+            <Label fx:id="addressTextfield" layoutX="27.0" layoutY="150.0" text="Father's Name" />
+            <Label layoutX="27.0" layoutY="183.0" text="Mother's Name" />
+            <Label layoutX="27.0" layoutY="216.0" text="Address:" />
+            <TextField fx:id="brideNameTextField" layoutX="117.0" layoutY="72.0" />
+            <TextField fx:id="bfatherNameTextfield" layoutX="117.0" layoutY="146.0" />
+            <TextField fx:id="bmotherNameTextfield" layoutX="117.0" layoutY="179.0" />
+            <TextField fx:id="bAddressTextField" layoutX="117.0" layoutY="212.0" />
+            <DatePicker fx:id="bDobDatepicker" layoutX="117.0" layoutY="111.0" prefHeight="25.0" prefWidth="149.0" />
+            <Label layoutX="308.0" layoutY="76.0" text="Groom Name:" />
+            <Label layoutX="308.0" layoutY="107.0" text="Date Of Birth:" />
+            <Label layoutX="313.0" layoutY="150.0" text="Father's Name:" />
+            <Label layoutX="299.0" layoutY="183.0" text="Mother's Name:" />
+            <TextField fx:id="gNameTextField" layoutX="401.0" layoutY="72.0" />
+            <TextField fx:id="gfatherNameTextField" layoutX="402.0" layoutY="146.0" />
+            <TextField fx:id="gMotherNameTextField" layoutX="405.0" layoutY="179.0" />
+            <Button layoutX="477.0" layoutY="419.0" mnemonicParsing="false" onMouseClicked="#submitlKaziBookingFormButtonOnClick" text="submit" />
+            <DatePicker fx:id="gDobDatePicker" layoutX="402.0" layoutY="103.0" prefHeight="25.0" prefWidth="149.0" />
+            <Label layoutX="341.0" layoutY="208.0" text="Address:" />
+            <TextField fx:id="gAddressTextField1" layoutX="405.0" layoutY="212.0" />
+            <Line endX="-2.0" endY="-53.0" layoutX="293.0" layoutY="128.0" startX="-2.0" startY="108.0" />
+            <Label layoutX="27.0" layoutY="280.0" text="Marriage Date:" />
+            <Label layoutX="27.0" layoutY="311.0" text="Event location:" />
+            <Label layoutX="27.0" layoutY="342.0" text="Time:" />
+            <Label layoutX="362.0" layoutY="280.0" text="Denmohor:" />
+            <Label layoutX="28.0" layoutY="391.0" text="Contact Number:" />
+            <DatePicker fx:id="marriageDateDatepicker1" layoutX="117.0" layoutY="276.0" prefHeight="25.0" prefWidth="149.0" />
+            <TextField fx:id="eventLocationTextField" layoutX="117.0" layoutY="307.0" />
+            <TextField fx:id="timeTextField" layoutX="117.0" layoutY="338.0" />
+            <TextField fx:id="contactnoTextField" layoutX="119.0" layoutY="387.0" />
+            <TextField fx:id="denmohorTextField" layoutX="439.0" layoutY="277.0" />
+         </children>
+      </AnchorPane>
+      <Button layoutX="42.0" layoutY="429.0" mnemonicParsing="false" onMouseClicked="#backButtonOnClick" text="Back" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="photographer.PhotographerPaymentSceneController">
+   <children>
+      <AnchorPane id="AnchorPane" layoutX="10.0" layoutY="10.0" prefHeight="578.0" prefWidth="600.0">
+         <children>
+            <Label layoutX="166.0" text=" Photographer Payment" underline="true">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="102.0" prefHeight="28.0" prefWidth="92.0" text="Serial No.">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="158.0" text="Client Name:">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="210.0" text="Paid Amount:">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="310.0" layoutY="157.0" text="Due Amount:">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="310.0" layoutY="200.0" text="Due Date:">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="serialnoTextField" layoutX="104.0" layoutY="104.0" />
+            <TextField fx:id="clientNameTextField" layoutX="104.0" layoutY="156.0" />
+            <TextField fx:id="paidAmountTextField" layoutX="104.0" layoutY="208.0" />
+            <TextField fx:id="DueAmountTextField" layoutX="413.0" layoutY="155.0" />
+            <DatePicker fx:id="dueDatePicker" layoutX="413.0" layoutY="196.0" prefHeight="25.0" prefWidth="149.0" />
+            <Button layoutX="31.0" layoutY="519.0" mnemonicParsing="false" onMouseClicked="#backButtonOnClick" text="Back" />
+            <Button layoutX="498.0" layoutY="519.0" mnemonicParsing="false" onMouseClicked="#sendButtonOnClick" text="Send" />
+            <Label layoutX="310.0" layoutY="106.0" text="Package:">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="packageComboBox" layoutX="413.0" layoutY="104.0" prefWidth="150.0" promptText="Package" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

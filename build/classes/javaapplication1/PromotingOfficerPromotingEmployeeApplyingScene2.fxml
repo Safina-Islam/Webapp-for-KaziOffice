@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="734.0" prefWidth="964.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaapplication1.PromotingEmployeeApplyingSceneController">
+   <children>
+      <Text layoutX="22.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Promotion Letter:" wrappingWidth="128.5367431640625" />
+      <TextArea fx:id="promotionLetterTextArea" layoutX="14.0" layoutY="54.0" prefHeight="282.0" prefWidth="946.0" />
+      <Button layoutX="22.0" layoutY="367.0" mnemonicParsing="false" onAction="#applyForPromotionButtonOnClick" prefHeight="26.0" prefWidth="246.0" text="Apply For Promotion" />
+   </children>
+</AnchorPane>

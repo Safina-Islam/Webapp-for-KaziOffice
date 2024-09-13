@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="photographer.PhotographerScheduleController">
+   <children>
+      <AnchorPane id="AnchorPane" layoutY="1.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ebd2c5;">
+         <children>
+            <DatePicker fx:id="scheduleDatepicker" layoutX="160.0" layoutY="51.0" onMouseClicked="#scheduleDatePickerButtonOnClick" prefHeight="25.0" prefWidth="218.0" />
+            <TextArea fx:id="viewScheduleTextArea" layoutX="300.0" layoutY="94.0" prefHeight="191.0" prefWidth="297.0" />
+            <Button layoutX="395.0" layoutY="51.0" mnemonicParsing="false" onMouseClicked="#viewScheduleButtonOnClick" text="View Schedule" />
+            <Button layoutX="45.0" layoutY="51.0" mnemonicParsing="false" onMouseClicked="#createScheduleButtonOnClick" text="Create Schedule" />
+            <Button layoutX="474.0" layoutY="322.0" mnemonicParsing="false" onMouseClicked="#backButtonOnClick" text="Back" />
+            <Line endX="4.0" endY="67.0" layoutX="277.0" layoutY="212.0" startX="4.0" startY="-113.0" />
+            <Label layoutX="181.0" layoutY="-9.0" text="My Schedule">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="17.0" layoutY="99.0" text="Client Serial No.:" />
+            <Label layoutX="17.0" layoutY="137.0" text="Client Name:" />
+            <Label layoutX="17.0" layoutY="172.0" text="Event Type:" />
+            <Label layoutX="17.0" layoutY="209.0" text="Event Location:" />
+            <Label layoutX="17.0" layoutY="239.0" text="Starting Time:" />
+            <TextField fx:id="serialNoTextField" layoutX="120.0" layoutY="95.0" />
+            <TextField fx:id="clientNameTextField" layoutX="120.0" layoutY="133.0" />
+            <TextField fx:id="eventTypeTextField" layoutX="120.0" layoutY="168.0" />
+            <TextField fx:id="eventLocatonTextField" layoutX="120.0" layoutY="205.0" />
+            <TextField fx:id="startingTimeTextField" layoutX="120.0" layoutY="235.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

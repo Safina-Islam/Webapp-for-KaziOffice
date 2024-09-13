@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaapplication1.DecoratingOfficerDecoratingOfTheVenueAsPerScheduledMarriageScene1Controller">
+   <children>
+      <Button layoutX="506.0" layoutY="289.0" mnemonicParsing="false" onAction="#uploadButtonOnClick" text="Upload" />
+      <Button layoutX="498.0" layoutY="333.0" mnemonicParsing="false" onAction="#downloadButtonOnClick" text="Download" />
+      <Text layoutX="14.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Decorating Vnue Details:" wrappingWidth="151.36871337890625" />
+      <TextArea fx:id="decoratingDetailsTextArea" layoutX="14.0" layoutY="76.0" prefHeight="200.0" prefWidth="571.0" promptText="Details" />
+   </children>
+</AnchorPane>

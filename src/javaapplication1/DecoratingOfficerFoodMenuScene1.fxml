@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="652.0" prefWidth="829.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaapplication1.DecoratingOfficerFoodMenuScene1Controller">
+   <children>
+      <Button layoutX="715.0" layoutY="541.0" mnemonicParsing="false" onAction="#uploadButtonOnClick" text="upload" />
+      <Text layoutX="82.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Food Menu Informations:" wrappingWidth="542.1367111206055" />
+   </children>
+</AnchorPane>

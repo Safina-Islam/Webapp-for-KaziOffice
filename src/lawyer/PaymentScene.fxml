@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lawyer.PaymentSceneController">
+   <children>
+      <Label layoutX="215.0" layoutY="14.0" prefHeight="35.0" prefWidth="126.0" text="Bill Details" underline="true">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="522.0" layoutY="361.0" mnemonicParsing="false" onMouseClicked="#backButtonOnClick" text="Back" />
+      <Button layoutX="20.0" layoutY="19.0" mnemonicParsing="false" onMouseClicked="#ViewBillButtonOnClick" text="View Bill" />
+      <TableView fx:id="lawPaymentTableView" layoutX="13.0" layoutY="69.0" prefHeight="284.0" prefWidth="574.0">
+         <columns>
+            <TableColumn fx:id="caseNoColumn" prefWidth="83.0" text="Case No." />
+            <TableColumn fx:id="clientNameColumn" prefWidth="172.0" text="Client Name" />
+            <TableColumn fx:id="paidAmountColumn" prefWidth="113.0" text="Paid Amount" />
+            <TableColumn fx:id="dueAmountColumn" prefWidth="91.0" text="Due Amount" />
+            <TableColumn fx:id="dueDateColumn" prefWidth="114.0" text="Due Date" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

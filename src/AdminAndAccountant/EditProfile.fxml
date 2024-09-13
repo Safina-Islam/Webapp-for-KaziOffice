@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.EditProfileController">
+   <children>
+      <Label layoutX="240.0" layoutY="6.0" text="Edit Profile">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <HBox layoutX="134.0" layoutY="68.0" spacing="32.0">
+         <children>
+            <VBox>
+               <children>
+                  <Label text="Name:" />
+                  <TextField promptText="Name" />
+                  <Label text="Date:" />
+                  <DatePicker promptText="dd/mm/yyyy" />
+                  <Label text="Address:" />
+                  <TextField promptText="Block C 125, UAE" />
+                  <Label text="Phone No:" />
+                  <TextField promptText="012345679" />
+                  <Label text="Marital Status:" />
+                  <TextField promptText="Single" />
+               </children>
+            </VBox>
+            <VBox>
+               <children>
+                  <Label text="Old Password" />
+                  <TextField promptText="*************" />
+                  <Label text="New Password" />
+                  <TextField promptText="*************" />
+                  <Label text="Gender:" />
+                  <HBox spacing="16.0">
+                     <children>
+                        <RadioButton mnemonicParsing="false" text="Male">
+                           <padding>
+                              <Insets top="2.0" />
+                           </padding>
+                        </RadioButton>
+                        <RadioButton mnemonicParsing="false" text="Female">
+                           <padding>
+                              <Insets top="2.0" />
+                           </padding>
+                        </RadioButton>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <VBox layoutX="270.0" layoutY="304.0" spacing="10.0">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="70.0" text="Save" />
+            <Button mnemonicParsing="false" onAction="#onClickBack" prefHeight="25.0" prefWidth="70.0" text="Back" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainpkg.TaxController">
+   <children>
+      <Button layoutX="223.0" layoutY="322.0" mnemonicParsing="false" onAction="#onSave" prefHeight="25.0" prefWidth="155.0" text="Pay" />
+      <Button layoutX="223.0" layoutY="361.0" mnemonicParsing="false" onAction="#onDiscard1" prefHeight="25.0" prefWidth="155.0" text="Discard" />
+      <TextArea layoutX="35.0" layoutY="227.0" prefHeight="79.0" prefWidth="530.0" promptText="Tax details" />
+      <Label layoutX="35.0" layoutY="202.0" text="Discription:" />
+      <TextField layoutX="35.0" layoutY="102.0" prefHeight="25.0" prefWidth="263.0" promptText="Monthly revenue" />
+      <Label layoutX="35.0" layoutY="77.0" text="Company name:" />
+      <TextField layoutX="35.0" layoutY="168.0" prefHeight="25.0" prefWidth="530.0" promptText="\$25000" />
+      <Label layoutX="34.0" layoutY="144.0" text="Amount:" />
+      <Label layoutX="283.0" layoutY="22.0" text="Tax">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField layoutX="301.0" layoutY="102.0" prefHeight="25.0" prefWidth="263.0" promptText="Monthly revenue" />
+      <Label layoutX="301.0" layoutY="77.0" text="Tax number:" />
+   </children>
+</AnchorPane>

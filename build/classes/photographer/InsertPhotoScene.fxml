@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19" fx:controller="photographer.InsertPhotoSceneController">
+   <children>
+      <ImageView fx:id="insert4Photoview" fitHeight="150.0" fitWidth="200.0" layoutX="271.0" layoutY="208.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="insert2Photoview" fitHeight="150.0" fitWidth="200.0" layoutX="224.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="insert3PhotoView" fitHeight="150.0" fitWidth="200.0" layoutX="15.0" layoutY="208.0" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="471.0" layoutY="34.0" mnemonicParsing="false" onMouseClicked="#insertphotoButtonOnClick" text="Insert Photo" />
+      <ImageView fx:id="Insert1PhotoView" fitHeight="150.0" fitWidth="200.0" layoutX="32.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="519.0" layoutY="361.0" mnemonicParsing="false" onMouseClicked="#SentPhotoButtonOnClick" text="SEND" />
+      <Button layoutX="15.0" layoutY="361.0" mnemonicParsing="false" onMouseClicked="#backButtonOnClick" text="Back" />
+   </children>
+</AnchorPane>

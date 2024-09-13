@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="620.0" prefWidth="852.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaapplication1.DecoratingOfficerFoodMenuScene2Controller">
+   <children>
+      <TableView fx:id="foodMenutableView" layoutX="21.0" layoutY="146.0" prefHeight="200.0" prefWidth="790.0">
+        <columns>
+          <TableColumn fx:id="drinksView" prefWidth="108.80001258850098" text="Drinks" />
+          <TableColumn fx:id="sidesView" prefWidth="151.199951171875" text="Sides" />
+            <TableColumn fx:id="appetizersView" prefWidth="180.800048828125" text="Appetizers" />
+            <TableColumn fx:id="mainsView" prefWidth="158.39996337890625" text="Mains" />
+            <TableColumn fx:id="dessertsView" prefWidth="194.39996337890625" text="Desserts" />
+        </columns>
+      </TableView>
+      <Text layoutX="21.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Table For Food Menu:" wrappingWidth="178.93669891357422" />
+      <Button layoutX="727.0" layoutY="420.0" mnemonicParsing="false" onAction="#downloadButtonOnClick" text="Download" />
+      <Button layoutX="723.0" layoutY="464.0" mnemonicParsing="false" onAction="#printButtonOnClick" prefHeight="26.0" prefWidth="78.0" text="Print" />
+   </children>
+</AnchorPane>

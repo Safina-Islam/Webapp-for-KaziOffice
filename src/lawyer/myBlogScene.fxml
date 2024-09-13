@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="577.0" prefWidth="762.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lawyer.MyBlogSceneController">
+   <children>
+      <Button layoutX="14.0" layoutY="538.0" mnemonicParsing="false" onMouseClicked="#backButtonOnClick" text="BACK" />
+      <Label layoutX="265.0" layoutY="27.0" prefHeight="25.0" prefWidth="126.0" text="My Blogs" underline="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="762.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Blog">
+               <items>
+                  <MenuItem fx:id="openBlogMenuItem" mnemonicParsing="false" onAction="#openBlogButtonOnclick" text="Open A Blog" />
+                  <MenuItem fx:id="createNewBlogMenuItem" mnemonicParsing="false" onAction="#createNewblogButtonOnClick" text="Create New Blog" />
+               </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem fx:id="editMyblogMenuItem" mnemonicParsing="false" onAction="#editMyblogMenuItemOnClock" text="Edit my Blog" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Share">
+            <items>
+              <MenuItem fx:id="shareBlogMenuItem" mnemonicParsing="false" onAction="#shareBlogMenuItemOnClick" text="Share" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <TextArea fx:id="blogTextArea" layoutY="66.0" prefHeight="465.0" prefWidth="762.0" />
+      <Button layoutX="707.0" layoutY="538.0" mnemonicParsing="false" onMouseClicked="#saveBButtonOnClick" text="Save" />
+   </children>
+</AnchorPane>

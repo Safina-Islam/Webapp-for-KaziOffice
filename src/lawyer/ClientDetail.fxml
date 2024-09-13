@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lawyer.ClientDetailController">
+   <children>
+      <Button layoutY="7.0" mnemonicParsing="false" onMouseClicked="#personalInfoButtonOnClick" prefHeight="35.0" prefWidth="132.0" text="Personal Info">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="208.0" layoutY="7.0" mnemonicParsing="false" onMouseClicked="#problemOrComplainButtonOnClick" text="Problenm/Complain">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="411.0" layoutY="7.0" mnemonicParsing="false" onMouseClicked="#submittedDocumentButtonOnClick" text="Submitted Documents">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="416.0" layoutY="54.0" mnemonicParsing="false" onMouseClicked="#caseStatusButtonOnClick" prefHeight="35.0" prefWidth="174.0" text="Case Status">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="problemTextArea" layoutX="211.0" layoutY="42.0" prefHeight="186.0" prefWidth="159.0" />
+      <Button layoutX="475.0" layoutY="361.0" mnemonicParsing="false" onMouseClicked="#backButtonOnClick" prefHeight="25.0" prefWidth="74.0" text="Back" />
+      <Label fx:id="nameLable" layoutX="8.0" layoutY="59.0" prefHeight="25.0" prefWidth="181.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="dobLable" layoutX="8.0" layoutY="89.0" prefHeight="30.0" prefWidth="181.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="addressLabel" layoutX="8.0" layoutY="120.0" prefHeight="30.0" prefWidth="181.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="phoneNoLabel" layoutX="8.0" layoutY="149.0" prefHeight="25.0" prefWidth="181.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="emailLabel" layoutX="8.0" layoutY="175.0" prefHeight="25.0" prefWidth="181.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="occupationLabel" layoutX="8.0" layoutY="203.0" prefHeight="25.0" prefWidth="181.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="marritualStatusLabel" layoutX="8.0" layoutY="229.0" prefHeight="30.0" prefWidth="181.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="spouseNameLabel" layoutX="8.0" layoutY="262.0" prefHeight="30.0" prefWidth="367.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="spouseOccupationLabel" layoutX="8.0" layoutY="298.0" prefHeight="25.0" prefWidth="367.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
